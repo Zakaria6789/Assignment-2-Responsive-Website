@@ -21,7 +21,6 @@ body{
 .container{
     width: 1200px;
     margin: 0 auto;
-    background-color: antiquewhite;
     padding: 70px 50px;
 }
 
@@ -32,7 +31,7 @@ body{
     height: 100px;
     align-items: center;
 }
-.title-part h2{
+.title-part h3{
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
@@ -108,6 +107,9 @@ body{
 }
 .fa-arrow-right{
     margin-left: 8px;
+}
+.banner-right img{
+    width: 90%;
 }
 
 /* popular-section */
