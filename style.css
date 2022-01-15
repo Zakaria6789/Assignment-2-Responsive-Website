@@ -4,6 +4,10 @@
 font-family: 'Manrope', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
+/* fix right space on the screen */
+    html, body{
+        overflow-x: hidden;
+    }
 
 /* common css */
 *{
@@ -18,6 +22,7 @@ body{
     width: 1200px;
     margin: 0 auto;
     background-color: antiquewhite;
+    padding: 70px 50px;
 }
 
 /* header-section css */
@@ -26,7 +31,6 @@ body{
     justify-content: space-between;
     height: 100px;
     align-items: center;
-    padding: 70px 50px;
 }
 .title-part h2{
     font-size: 24px;
@@ -76,7 +80,6 @@ body{
     grid-template-columns: 582px 475px;
     column-gap: 133px;
     align-items: center; 
-    padding: 70px 50px;
 }
 .banner-left h2{
     font-size: 52px;
@@ -108,9 +111,6 @@ body{
 }
 
 /* popular-section */
-.popular-section{
-    padding: 70px 50px;
-}
 .section-title{
     font-size: 28px;
     font-weight: 600;
@@ -185,13 +185,14 @@ body{
 }
 
 /* contact-section */
-.contact-section{
-    padding: 70px 50px;
-}
 .contact-info{
     display: grid;
     grid-template-columns: 600px 1fr;
     column-gap: 30px;
+}
+.map iframe{
+    width: 600px;
+    height: 350px;
 }
 .contact-right{
     display: grid;
@@ -214,7 +215,7 @@ footer{
 }
 .footer-section{
     text-align: center;
-    padding: 50px 0;
+    padding: 50px;
     background-color: #0A0826;
 }
 .footer-section h3{
