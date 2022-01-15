@@ -111,6 +111,13 @@ body{
 .banner-right img{
     width: 90%;
 }
+/* camera hover effect */
+.banner-right img{
+    transition: transform 1s linear;
+}
+.banner-right:hover img{
+    transform: rotate(80deg);
+}
 
 /* popular-section */
 .section-title{
