@@ -73,9 +73,10 @@ body{
 /* banner-section css */
 .banner-section{
     display: grid;
-    grid-template-columns: 582px 440px;
+    grid-template-columns: 582px 475px;
     column-gap: 133px;
-    align-items: center;
+    align-items: center; 
+    padding: 70px 0;
 }
 .banner-left h2{
     font-size: 52px;
@@ -104,4 +105,69 @@ body{
 }
 .banner-left .fa-arrow-right{
     margin-left: 8px;
+}
+.banner-right{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    height: 475px;
+}
+
+/* popular-section */
+.popular-item{
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+}
+.popular-title h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    color: #3A3A3A;
+    text-align: center;  
+}
+.single-item{
+    padding: 17px 14px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.55);
+}
+.item-details h3{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #18191F;
+    margin-top: 16px;
+}
+.item-details .price{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #000000; 
+    margin-top: 6px; 
+}
+.rating-box{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.rating-icon .fas{
+    width: 16px;
+    height: 16px;
+    color: #FB8200;
+}
+.rating-box p{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #5E6366;
+    margin-left: 15px;
+}
+.item-details .description{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #787885;
 }
